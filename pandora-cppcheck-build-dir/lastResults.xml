@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="1.90"/>
+    <errors>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;GetSupplyConsumption&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;GetSupplyConsumption&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." sinceDate="2020-07-20">
+            <location file="psupply.h" line="25" info="Virtual function in base class"/>
+            <location file="phuman.h" line="96" info="Function in derived class"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;SupplyConsumer::_supply_consumption&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;SupplyConsumer::_supply_consumption&amp;#039; is not initialized in the constructor." sinceDate="2020-07-20">
+            <location file="cpp98\pandora.cpp" line="27"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Robot::_endurance_points&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Robot::_endurance_points&amp;#039; is not initialized in the constructor." sinceDate="2020-07-20">
+            <location file="cpp98\pandora.cpp" line="50"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;SupplyConsumer&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;SupplyConsumer&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="2020-07-20">
+            <location file="cpp98\pandora.cpp" line="31"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;GetSupplyConsumption&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;GetSupplyConsumption&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." sinceDate="2020-07-20">
+            <location file="cpp98\pandora.cpp" line="37" info="Virtual function in base class"/>
+            <location file="cpp98\pandora.cpp" line="55" info="Function in derived class"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;planet&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;planet&amp;#039; is assigned a value that is never used." sinceDate="2020-07-20">
+            <location file="cpp98\pandora.cpp" line="290"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;GetHumanWithRole&amp;#039; is never used." verbose="The function &amp;#039;GetHumanWithRole&amp;#039; is never used." sinceDate="2020-07-20">
+            <location file="cpp98\pandora.cpp" line="149"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;IsAnyCrewOnShuttle&amp;#039; is never used." verbose="The function &amp;#039;IsAnyCrewOnShuttle&amp;#039; is never used." sinceDate="2020-07-20">
+            <location file="cpp98\pandora.cpp" line="113"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Human::_human_protection_suit&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Human::_human_protection_suit&amp;#039; is not initialized in the constructor." sinceDate="2020-07-20">
+            <location file="cpp98\phuman.h" line="120"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Human::_capture&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Human::_capture&amp;#039; is not initialized in the constructor." sinceDate="2020-07-20">
+            <location file="cpp98\phuman.h" line="120"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Human::_attack&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Human::_attack&amp;#039; is not initialized in the constructor." sinceDate="2020-07-20">
+            <location file="cpp98\phuman.h" line="120"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Human::_mass&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Human::_mass&amp;#039; is not initialized in the constructor." sinceDate="2020-07-20">
+            <location file="cpp98\phuman.h" line="120"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Human::_port&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Human::_port&amp;#039; is not initialized in the constructor." sinceDate="2020-07-20">
+            <location file="cpp98\phuman.h" line="120"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Human::_speed&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Human::_speed&amp;#039; is not initialized in the constructor." sinceDate="2020-07-20">
+            <location file="cpp98\phuman.h" line="120"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Human&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Human&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="2020-07-20">
+            <location file="cpp98\phuman.h" line="68"/>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &amp;#039;planet_name&amp;#039; should be passed by const reference." verbose="Parameter &amp;#039;planet_name&amp;#039; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." sinceDate="2020-07-20">
+            <location file="cpp98\pplanet.h" line="104"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;GetVictoryGoalPoints&amp;#039; is never used." verbose="The function &amp;#039;GetVictoryGoalPoints&amp;#039; is never used." sinceDate="2020-07-20">
+            <location file="pandora.cpp" line="147"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;GetVictoryPoints&amp;#039; is never used." verbose="The function &amp;#039;GetVictoryPoints&amp;#039; is never used." sinceDate="2020-07-20">
+            <location file="pandora.cpp" line="88"/>
+        </error>
+    </errors>
+</results>

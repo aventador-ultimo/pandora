@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3899251962">
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;SupplyConsumer::_supply_consumption&apos; is not initialized in the constructor." verbose="Member variable &apos;SupplyConsumer::_supply_consumption&apos; is not initialized in the constructor." cwe="398">
+            <location file0="C:\projects\pandora\cpp98\pandora.cpp" file="C:\projects\pandora\cpp98\pandora.cpp" line="27" column="2"/>
+            <symbol>SupplyConsumer::_supply_consumption</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Human::_human_protection_suit&apos; is not initialized in the constructor." verbose="Member variable &apos;Human::_human_protection_suit&apos; is not initialized in the constructor." cwe="398">
+            <location file0="C:\projects\pandora\cpp98\pandora.cpp" file="C:\projects\pandora\cpp98\phuman.h" line="120" column="8"/>
+            <symbol>Human::_human_protection_suit</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Human::_capture&apos; is not initialized in the constructor." verbose="Member variable &apos;Human::_capture&apos; is not initialized in the constructor." cwe="398">
+            <location file0="C:\projects\pandora\cpp98\pandora.cpp" file="C:\projects\pandora\cpp98\phuman.h" line="120" column="8"/>
+            <symbol>Human::_capture</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Human::_attack&apos; is not initialized in the constructor." verbose="Member variable &apos;Human::_attack&apos; is not initialized in the constructor." cwe="398">
+            <location file0="C:\projects\pandora\cpp98\pandora.cpp" file="C:\projects\pandora\cpp98\phuman.h" line="120" column="8"/>
+            <symbol>Human::_attack</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Human::_mass&apos; is not initialized in the constructor." verbose="Member variable &apos;Human::_mass&apos; is not initialized in the constructor." cwe="398">
+            <location file0="C:\projects\pandora\cpp98\pandora.cpp" file="C:\projects\pandora\cpp98\phuman.h" line="120" column="8"/>
+            <symbol>Human::_mass</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Human::_port&apos; is not initialized in the constructor." verbose="Member variable &apos;Human::_port&apos; is not initialized in the constructor." cwe="398">
+            <location file0="C:\projects\pandora\cpp98\pandora.cpp" file="C:\projects\pandora\cpp98\phuman.h" line="120" column="8"/>
+            <symbol>Human::_port</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Human::_speed&apos; is not initialized in the constructor." verbose="Member variable &apos;Human::_speed&apos; is not initialized in the constructor." cwe="398">
+            <location file0="C:\projects\pandora\cpp98\pandora.cpp" file="C:\projects\pandora\cpp98\phuman.h" line="120" column="8"/>
+            <symbol>Human::_speed</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Robot::_endurance_points&apos; is not initialized in the constructor." verbose="Member variable &apos;Robot::_endurance_points&apos; is not initialized in the constructor." cwe="398">
+            <location file0="C:\projects\pandora\cpp98\pandora.cpp" file="C:\projects\pandora\cpp98\pandora.cpp" line="50" column="2"/>
+            <symbol>Robot::_endurance_points</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;SupplyConsumer&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;SupplyConsumer&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398">
+            <location file0="C:\projects\pandora\cpp98\pandora.cpp" file="C:\projects\pandora\cpp98\pandora.cpp" line="31" column="2"/>
+            <symbol>SupplyConsumer</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Human&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Human&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398">
+            <location file0="C:\projects\pandora\cpp98\pandora.cpp" file="C:\projects\pandora\cpp98\phuman.h" line="68" column="2"/>
+            <symbol>Human</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;GetSupplyConsumption&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;GetSupplyConsumption&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\projects\pandora\cpp98\pandora.cpp" file="C:\projects\pandora\cpp98\pandora.cpp" line="55" column="14" info="Function in derived class"/>
+            <location file0="C:\projects\pandora\cpp98\pandora.cpp" file="C:\projects\pandora\cpp98\pandora.cpp" line="37" column="14" info="Virtual function in base class"/>
+            <symbol>GetSupplyConsumption</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;planet_name&apos; should be passed by const reference." verbose="Parameter &apos;planet_name&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398">
+            <location file0="C:\projects\pandora\cpp98\pandora.cpp" file="C:\projects\pandora\cpp98\pplanet.h" line="104" column="10"/>
+            <symbol>planet_name</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;planet&apos; is assigned a value that is never used." verbose="Variable &apos;planet&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\projects\pandora\cpp98\pandora.cpp" file="C:\projects\pandora\cpp98\pandora.cpp" line="290" column="15"/>
+            <symbol>planet</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/projects/pandora/cpp98/prandom.h:10:6" call-funcname="IRandom" call-argnr="1" file="C:/projects/pandora/cpp98/prandom.h" line="196" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/projects/pandora/cpp98/pandora.cpp:31:2" call-funcname="SupplyConsumer" call-argnr="1" file="C:/projects/pandora/cpp98/pandora.cpp" line="29" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="GetSupplyConsumption" lineNumber="37"/>
+    <functiondecl functionName="GetSupplyConsumption" lineNumber="55"/>
+    <functiondecl functionName="GetNMembers" lineNumber="100"/>
+    <functiondecl functionName="GetCrewMember" lineNumber="104"/>
+    <functiondecl functionName="GetCrewMember" lineNumber="108"/>
+    <functiondecl functionName="IsAnyCrewOnShuttle" lineNumber="113"/>
+    <functiondecl functionName="IsHumanWithRoleOnLocation" lineNumber="135"/>
+    <functiondecl functionName="GetHumanWithRole" lineNumber="149"/>
+    <functiondecl functionName="ModifyHumanWithRole" lineNumber="172"/>
+    <functiondecl functionName="main" lineNumber="250"/>
+    <functioncall functionName="ApplyDeath"/>
+    <functioncall functionName="ApplyRemoveEndurancePoint"/>
+    <functioncall functionName="ConfigureEnviroSuit"/>
+    <functioncall functionName="ConfigureHeavySuit"/>
+    <functioncall functionName="ConfigureNoSuit"/>
+    <functioncall functionName="Discover"/>
+    <functioncall functionName="GenerateExplorationParagraph"/>
+    <functioncall functionName="GenerateHumanIntelligence"/>
+    <functioncall functionName="GenerateStarEvent"/>
+    <functioncall functionName="GenerateStarEventParagraph"/>
+    <functioncall functionName="GetAttack"/>
+    <functioncall functionName="GetCapture"/>
+    <functioncall functionName="GetCrewMember"/>
+    <functioncall functionName="GetEndurance"/>
+    <functioncall functionName="GetHumanProtectionSuit"/>
+    <functioncall functionName="GetIntelligence"/>
+    <functioncall functionName="GetLocation"/>
+    <functioncall functionName="GetMass"/>
+    <functioncall functionName="GetNMembers"/>
+    <functioncall functionName="GetOneDice"/>
+    <functioncall functionName="GetPlanetAtmosphere"/>
+    <functioncall functionName="GetPlanetGravity"/>
+    <functioncall functionName="GetPlanetName"/>
+    <functioncall functionName="GetPort"/>
+    <functioncall functionName="GetRole"/>
+    <functioncall functionName="GetSpeed"/>
+    <functioncall functionName="GetSumTwoDices"/>
+    <functioncall functionName="GetSupplyConsumption"/>
+    <functioncall functionName="HL_FOOT"/>
+    <functioncall functionName="HL_ROVER"/>
+    <functioncall functionName="HL_SHUTTLE"/>
+    <functioncall functionName="HL_STARSHIP"/>
+    <functioncall functionName="HL_UNKNOWN"/>
+    <functioncall functionName="HPS_ENVIROSUIT"/>
+    <functioncall functionName="HPS_ENVIROSUIT_DAMAGED"/>
+    <functioncall functionName="HPS_HEAVYSUIT"/>
+    <functioncall functionName="HPS_HEAVYSUIT_DAMAGED"/>
+    <functioncall functionName="HPS_NONE"/>
+    <functioncall functionName="HPS_UNKNOWN"/>
+    <functioncall functionName="HR_BRAIN_DAMAGED"/>
+    <functioncall functionName="HR_COMMANDER"/>
+    <functioncall functionName="HR_DEAD"/>
+    <functioncall functionName="HR_DOCTOR"/>
+    <functioncall functionName="HR_ENGINEER"/>
+    <functioncall functionName="HR_NAVIGATOR"/>
+    <functioncall functionName="HR_SCIENTIST"/>
+    <functioncall functionName="HR_SCOUT"/>
+    <functioncall functionName="HR_SOLDIER"/>
+    <functioncall functionName="HR_UNKNOWN"/>
+    <functioncall functionName="Human"/>
+    <functioncall functionName="IRandom"/>
+    <functioncall functionName="IsHumanWithRoleOnLocation"/>
+    <functioncall functionName="ModifyHumanWithRole"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="PA_CORROSIVE"/>
+    <functioncall functionName="PA_NONE"/>
+    <functioncall functionName="PA_NORMAL"/>
+    <functioncall functionName="PA_POISONOUS"/>
+    <functioncall functionName="PA_THIN"/>
+    <functioncall functionName="PA_UNKNOWN"/>
+    <functioncall functionName="PC_ARCTIC"/>
+    <functioncall functionName="PC_DESERT"/>
+    <functioncall functionName="PC_TEMPERATE"/>
+    <functioncall functionName="PC_TROPICAL"/>
+    <functioncall functionName="PC_UNKNOWN"/>
+    <functioncall functionName="PF_CLEAR"/>
+    <functioncall functionName="PF_FOG"/>
+    <functioncall functionName="PF_UNKNOWN"/>
+    <functioncall functionName="PG_EARTHLIKE"/>
+    <functioncall functionName="PG_HEAVY"/>
+    <functioncall functionName="PG_LIGHT"/>
+    <functioncall functionName="PG_MINIMAL"/>
+    <functioncall functionName="PG_OPPRESSIVE"/>
+    <functioncall functionName="PG_UNKNOWN"/>
+    <functioncall functionName="PH_000"/>
+    <functioncall functionName="PH_025"/>
+    <functioncall functionName="PH_050"/>
+    <functioncall functionName="PH_075"/>
+    <functioncall functionName="PH_100"/>
+    <functioncall functionName="PH_UNKNOWN"/>
+    <functioncall functionName="PS_ACTIVE"/>
+    <functioncall functionName="PS_CALM"/>
+    <functioncall functionName="PS_UNKNOWN"/>
+    <functioncall functionName="PT_BIOSPHERE"/>
+    <functioncall functionName="PT_CLOSE"/>
+    <functioncall functionName="PT_FAR"/>
+    <functioncall functionName="PT_GIANT"/>
+    <functioncall functionName="PT_LARGE"/>
+    <functioncall functionName="PT_REMOTE"/>
+    <functioncall functionName="PT_SMALL"/>
+    <functioncall functionName="PT_TINY"/>
+    <functioncall functionName="Planet"/>
+    <functioncall functionName="PlanetAtmosphere"/>
+    <functioncall functionName="PlanetGravity"/>
+    <functioncall functionName="SetAtmosphere"/>
+    <functioncall functionName="SetGravity"/>
+    <functioncall functionName="SetOrbitingPlanet"/>
+    <functioncall functionName="StarEventParagraph"/>
+    <functioncall functionName="SupplyConsumer"/>
+    <functioncall functionName="_attack"/>
+    <functioncall functionName="_capture"/>
+    <functioncall functionName="_discovered"/>
+    <functioncall functionName="_distance_moves_startfield"/>
+    <functioncall functionName="_endurance"/>
+    <functioncall functionName="_human_location"/>
+    <functioncall functionName="_human_protection_suit"/>
+    <functioncall functionName="_human_role"/>
+    <functioncall functionName="_intelligence"/>
+    <functioncall functionName="_invariant"/>
+    <functioncall functionName="_orbiting_planet"/>
+    <functioncall functionName="_planet_atmosphere"/>
+    <functioncall functionName="_planet_climate"/>
+    <functioncall functionName="_planet_distance"/>
+    <functioncall functionName="_planet_fog"/>
+    <functioncall functionName="_planet_gravity"/>
+    <functioncall functionName="_planet_hydrography"/>
+    <functioncall functionName="_planet_name"/>
+    <functioncall functionName="_planet_seismology"/>
+    <functioncall functionName="_planet_size"/>
+    <functioncall functionName="_port"/>
+    <functioncall functionName="_speed"/>
+    <functioncall functionName="_supply_check_period"/>
+    <functioncall functionName="_supply_consumption"/>
+    <functioncall functionName="_visited"/>
+    <functioncall functionName="a"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="distance_moves_startfield"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="evt_index"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find_if"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="g"/>
+    <functioncall functionName="h"/>
+    <functioncall functionName="human_role"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="live_port"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="orbiting_planet"/>
+    <functioncall functionName="p_choosen_planet"/>
+    <functioncall functionName="pa"/>
+    <functioncall functionName="pg"/>
+    <functioncall functionName="planet_atmosphere"/>
+    <functioncall functionName="planet_distance"/>
+    <functioncall functionName="planet_gravity"/>
+    <functioncall functionName="planet_name"/>
+    <functioncall functionName="planet_size"/>
+    <functioncall functionName="private:"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="rand"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="suit_mass"/>
+    <functioncall functionName="suit_speed_modifier"/>
+    <functioncall functionName="supply_consumption"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="test_planet"/>
+    <functioncall functionName="tl"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

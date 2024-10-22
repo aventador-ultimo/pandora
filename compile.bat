@@ -1,0 +1,1 @@
+g++ -Wall -Wextra --pedantic pandora.cpp -o pandora.exe

@@ -1,0 +1,162 @@
+===============
+v1.00
+Oryginalny plik.
+===============
+v1.01
+Naprawiono niektóre b³êdy.
+===============
+v1.02
+Naprawiono niektóre b³êdy.
+Naprawiono b³¹d z iloœci¹ miesiêcy potrzebnych na l¹dowanie.
+Poprawiono b³¹d z balansem wykorzystania Skafandrów.
+Zmieniono nazwê archiwum na niezawieraj¹c¹ spacji.
+
+Zmodyfikowane funkcjonalnoœci:
+Up³yw realny zasobów wyœwietla teraz up³yw na godzinê, bior¹c pod uwagê wszystkie czynniki, ³¹cznie z Repbotem.
+Dodano kontekstow¹ pomoc po klikniêciu Pomoc oraz po niektórych czynnoœciach.
+Poprawiono system Zapisu/odczytu plików. Teraz autosave dzia³a przy wyjœciu do strony tytu³owej, a ze strony tytu³owej dostepny jest powrót do ostatnio zapisanego pliku.
+Wyjœcie z programu zapisuje teraz ca³y plik Excela! Dlatego zawsze nale¿y mieæ ze sob¹ kopiê zapasow¹ (lub œci¹gn¹æ ze strony internetowej).
+(dopisano:) UWAGA! Ryzyko utraty danych. Przy wychodzeniu z Excela komend¹ 'Opuœæ program' nie zostan¹ zapisane inne otwarte w Excelu pliki u¿ytkownika!
+===============
+v1.03
+Korekcja tekstu.
+Naprawiono b³¹d przy defekcie reanimatora.
+Pola przyleg³e do pola z p³ynn¹ law¹ rozpoznawane poprawnie.
+Teraz przy wychodzeniu Excel pyta o zapis pozosta³ych otwartych plików u¿ytkownika w Excelu.
+
+Balans:
+Szansa na infekcjê zwi¹zan¹ z terenem teraz o po³owê mniejsza (brak updatu spec).
+===============
+v1.04
+Poprawiono b³¹d z generacj¹ jaskini na pustynnej planecie.
+===============
+v1.05
+Naprawiono crash przy infekcji cz³owieka w £aziku.
+Popariono niektóre literówki.
+Poprawiono kolor na mapie.
+Poprawiono informacjê o pomocy Zwiadowcy/Rekonbota.
+===============
+v1.06
+Teraz gra tworzy katalog Odkrywcy w folderze, w którym znajduje siê plik .xls gry, a nie w Moich Dokumentach (lub gdzie indziej).
+Naprawiono b³¹d przy leczeniu na pok³adzie je¿eli Lekarz te¿ mia³ rany.
+Naprawiono crash nastêpuj¹cy jakiœ czas po og³uszeniu cz³owieka.
+Naprawiono crash przy uzyskiwaniu pomocy na orbicie.
+PZ za Holaparat dzia³aj¹ poprawnie przy Rdzawniku je¿eli ekspedycja nie ma klatki.
+Poprawiono literówkê.
+Zwiêkszono nieco pole tekstowe przy d³u¿szych tekstach.
+Naprawiono b³¹d przy nieudanym l¹dowaniu.
+
+Balans:
+Spotkanie Rogopióra teraz 16PZ zamiast 12PZ.
+===============
+***********************
+* v1.1 - NOWY RELEASE *
+***********************
+Zlikwidowano -1PZ za zniszczenie wszystkich Klatek.
+Drobna poprawka mapy.
+Poprawki napisów i tekstów.
+Wyrównano teksty w wierszach.
+Naprawiono b³¹d w noœnoœci ludzi przy atmosferze rozrzedzonej.
+Wy³¹czono debug sprawdzaj¹cy leaki - program bêdzie szybciej dzia³aæ.
+Zmniejszono czêstoœæ defragmentacji pseudopamiêci - program bêdzie szybciej dzia³aæ.
+Zmniejszono zu¿ycie pamiêci - program bêdzie poch³ania³ mniej zasobów.
+
+BALANS:
+Czas (w godzinach), który up³yn¹³ na powierzchni, w sposób bezpoœredni wp³ywa na up³yw miesiêcy.
+Stado Owadów teraz mniejsze.
+Laser nie pomaga przy wyborze strategii starcia przy Lustrzaku.
+Zwiêkszono czêstoœæ wyst¹pienia zdarzeñ w przestrzeni miêdzygwiezdnej.
+Specjalne starcie Rogopióra teraz 11PZ zamiast 8PZ.
+
+ZMODYFIKOWANE FUNKCJONALNOŒCI:
+Od tej pory schwytane istoty wieloklatkowe nie mog¹ mieæ wizualnie rozdzielonych klatek (zwiêkszenie wygody interfejsu).
+Przy leczeniu/naprawie, która ma miejsce na polu z promem, zu¿ywane s¹ zasoby z promu, je¿eli brakuje zasobów w ekspedycji.
+
+NOWA FUNKCJONALNOŒÆ - "REBALANS":
+Po zakoñczeniu gry istnieje teraz mo¿liwoœæ w³¹czenia kolejnej rozgrywki z tzw. rebalansem.
+Rebalans powoduje, ¿e spotkane rzeczy z poprzedniej rozgrywki bêd¹ mia³y teraz mniejsz¹ szansê wyst¹pienia, a niespotkane wiêksz¹. Wspó³czynnik wynosi dok³adnie 1/2 mniejsza szansa dla spotkanych. Dla niespotkanych zwiêkszana jest automatycznie i maksymalnie adekwatnie.
+Rebalans dotyczy:
+- wyst¹pienia zdarzeñ kosmicznych
+- cech planety
+- obszarów, na których siê l¹duje
+- wyst¹pienia istot (ale nie wypadków)
+Funkcjonalnoœæ ta pozwala na poznanie z czasem wszystkich mo¿liwoœci, jakie oferuje gra pod warunkiem, ¿e sam gracz bêdzie podejmowa³ coraz to nowsze wyzwania (np. istoty nie spotkane dot¹d w jaskini nadal bêd¹ mo¿liwe do spotkania w jaskini, ale z du¿o wiêksz¹ szans¹, lecz to od gracza zale¿y, czy do jaskini wejdzie, czy nie).
+Konkretne rozwiniêcia zdarzeñ kosmicznych oraz spotkañ z istotami nie podlegaj¹ rebalansowi (na razie).
+
+Uwaga! W obecnej formie nie zaleca siê powtarzania tego typu wielokrotnej rozgrywki w nieskoñczonoœæ z uwagi na malej¹cy performance oraz stopniowo malej¹ce zró¿nicowanie gry a tak¿e coraz bardziej nieodpowiednio dzia³aj¹ce PZ za poznanie. Sugeruje siê podjêcie tego typu rozgrywki do kilkunastu razy dla wyprawy 30-miesiêcznej i odpowiednio wiêcej dla wypraw krótszych.
+
+===============
+v1.11
+Poprawiono algorytm rebalansu dla spotkañ z istotami.
+Poprawiono dobór broni przy spotkaniu z Abomnidem i Ersekitem
+Poprawione zaznaczanie pola jako zbadane po spotkaniu Czworonogów poza obc¹ zabudow¹.
+Przy ataku istoty na pok³adzie gwiazdolotu okreœlane s¹ wszystkie jej wskaŸniki.
+Poprawiono rebalans zdarzenia defekt reanimatora
+Zmieniono kolejnoœæ wyœwietlanego poziomu na orbicie.
+Poprawiono zmianê noœnoœci przy zmianie poziomu.
+Kilka poprawek graficznych.
+
+Modyfikacja:
+Teraz leczenie i naprawa na polu z promem nie wymagaj¹ obecnoœci Narzêdzi, Specjalnych Narzêdzi, Apteczki, Lekarza i In¿yniera poza promem.
+
+Balans:
+Teraz niektóre wypadki s¹ nieco rzadsze.
+===============
+v1.12 - MUST HAVE (oczywiœcie kolejne wersje tak¿e)
+(Uwaga! Wersja z dnia 22.1 jest prawid³owa)
+Poprawiono bieg gry po walce z piratami.
+Poprawiono wyœwietlanie modyfikatorów Owadów.
+Koniec z wyœwietlan¹ iloœci¹ istot powy¿ej 100%.
+Poprawiono autozoom arkusza z celem gry.
+NAPRAWIONO POWA¯NY B£¥D REBALANSU WPROWADZONY PRZEZ v1.11.
+Poprawiono exploit pozwalaj¹cy zdobyæ wiele Broni Obcych.
+Rozszerzono nieco pole tekstowe.
+==============
+v1.13
+Naprawiono exploit z wykorzystywaniem jednostek z odelg³ego promu przy leczeniu/naprawie.
+Naprawiono okreœlanie wskaŸników istoty przejmuj¹cej kontrolê nad gwiazdolotem.
+Poprawiono niew³asciwe wyœwietlenie przycisków przy strategii spotkania z Kolorow¹ Mg³¹.
+Naprawiono b³¹d przy odczycie stanu gry.
+Naprawiono b³¹d przy rozpoznawaniu podreperowywania.
+==============
+v1.14
+Poprawiono b³¹d w balansie wykorzystania zestawów urz¹dzeñ.
+Poprawiono obliczanie PZ za zbadanie wszystkich rodz. terenu dla oceanu.
+Poprawiono wyœwietlanie liczby godzin przy wspinaczu/detektorze gdy wchodzi/wychodzi do folderu U¿ywane.
+Naprawiono rzadki b³¹d wystêpuj¹cy przy polowaniu na cz³owieka (crash).
+v1.14.1
+Naprawiono rzadki b³¹d (crash) wystêpuj¹cy przy przydzielaniu uszkodzeñ zasobom.
+Kosmetyczne zmiany w kodzie.
+v1.14.2
+Naprawiono rzadki b³¹d (crash) przy generacji lodowcowej mapy (b³êdne dane)
+Naprawiono niektóre b³êdy w tekstach.
+Teraz Podg³a¿nik dostaje zwiêkszony wskaŸnik starcia tylko do koñca starcia.
+Udana obrona statku przed piratami przez ¯o³nierza poch³ania miesi¹c zgodnie z wersj¹ angielsk¹.
+Po udanym porozumieniu (s³abszym) up³ywa jedna godzina zamiast dwóch zgodnie z wersj¹ angielsk¹.
+D³ugonóg mo¿e zmieniæ modyfikator agresji zamiast wskaŸnika agresji. Wtedy ponowne losowanie realizacji strategii.
+Poprawiono naruszanie zakazu eksploracji miast/budowli obcych - klatki ju¿ nie znikaj¹, tylko istoty.
+Po ucieczce od Futrzaka nie spotka siê ju¿ innego gatunku obcych na planecie.
+4PZ za obecnoœæ Naukowca przy udanym porozumieniu ze Szklakiem, zgodnie z wersj¹ angielsk¹.
+Podczas wypadku zwi¹zanego ze skrajn¹ grawitacj¹ Skafander bêdzie uszkodzony jedynie jeœli osoba utraci punkt odpornoœci.
+Podczas wypadku zwi¹zanego ze skrajn¹ grawitacj¹ afmosfera nie wymagaj¹ca skafandra powoduje, ¿e nie mo¿na odnieœæ ran u ludzi.
+Podczas wypadku zwi¹zanego ze skrajn¹ grawitacj¹ jeœli s¹ zarówno Skafandry jak i Ciê¿kie Skafandry, a atmosfera wymaga Skafandra, rany/uszk. mo¿na dowolnie rozdzieliæ (poza osobami w ciê¿kich skafandrach), przy czym rana dla cz³owieka ze Skafandrem oznacza uszkodzenie Skafandra i zmniejszenie puli ran o 1.
+v1.14.3
+poprawiono spotkanie z D³ugonogiem
+poprawiono wadliwe obliczanie korzyœci istoty przy ponownym wyborze strategii spotkania
+
+***********************
+* v1.2 - NOWY RELEASE *
+***********************
+Przyspieszono nieco rebalans
+
+ZMODYFIKOWANE FUNKCJONALNOŒCI:
+
+A) REBALANS TERENU:
+W wyniku rebalansu pola, które wczeœniej ju¿ siê zbada³o (czy to nad czy pod powierzchni¹) bêd¹ mia³y mniejsz¹ szansê na pojawienie siê na mapie danego obszaru, a pola, których siê nie zbada³o, wiêksz¹. Wp³yw ten jest mniej zauwa¿alny od pozosta³ych rebalansowanych rzeczy. Dany rodzaj pola nigdy nie ustêpuje w pe³ni na obszarze. Tak wiêc s¹ obszary, które bêd¹ odporne na ten typ rebalansu. P³ynna lawa, jako ¿e nie mo¿e byæ odwiedzona, traktowana jest neutralnie.
+Gracz ma mo¿liwoœæ wy³¹czenia tej funkcjonalnoœci wraz z nowym algorytmem losowania mapy.
+
+B) NOWY ALGORYTM GENERUJ¥CY TEREN:
+Wprowadzony zosta³ algorytm dodatkowego ulosowienia map. Poprzedni charakteryzowa³ siê wy³¹cznie zmian¹ lokacji poszczególnych pól. Teraz zmienia siê zarówno lokacja jak i proporcje wyst¹pienia danego typu pola. Ogólna charakterystyka danego obszaru nie podlega zmianie, a jedynie kszta³ty tworów i proporcje rodzajów terenu. Funkcjonalnoœæ ta jest wolniejsza od poprzedniej, szczególnie dla niektórych obszarów, jednak tworzy bardziej zró¿nicowane krajobrazy.
+Aby wy³¹czyæ nowy algorytm losowania map, nale¿y ...
+Aby ustawiæ stopieñ ulosowienia mapy, nale¿y ...
+Wysowie stopnie ulosowienia wymagaj¹ d³ugiego czekania przy generacji.

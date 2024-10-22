@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1290657522">
+        <error id="missingOverride" severity="style" msg="The function &apos;GetSupplyConsumption&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;GetSupplyConsumption&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="pandora.cpp" file="phuman.h" line="96" column="21" info="Function in derived class"/>
+            <location file0="pandora.cpp" file="psupply.h" line="25" column="21" info="Virtual function in base class"/>
+            <symbol>GetSupplyConsumption</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;GetSupplyConsumption&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;GetSupplyConsumption&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file="pandora.cpp" line="38" column="14" info="Function in derived class"/>
+            <location file0="pandora.cpp" file="psupply.h" line="25" column="21" info="Virtual function in base class"/>
+            <symbol>GetSupplyConsumption</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="prandom.h:13:5" call-funcname="IRandom" call-argnr="1" file="prandom.h" line="209" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="GetSupplyConsumption" lineNumber="38"/>
+    <functiondecl functionName="GetVictoryPoints" lineNumber="88"/>
+    <functiondecl functionName="GetVictoryGoalPoints" lineNumber="147"/>
+    <functiondecl functionName="main" lineNumber="153"/>
+    <functioncall functionName="ApplyDeath"/>
+    <functioncall functionName="ApplyRemoveEndurancePoint"/>
+    <functioncall functionName="Crew"/>
+    <functioncall functionName="GenerateExplorationParagraph"/>
+    <functioncall functionName="GenerateHumanIntelligence"/>
+    <functioncall functionName="GenerateStarEvent"/>
+    <functioncall functionName="GenerateStarEventParagraph"/>
+    <functioncall functionName="GetAttack"/>
+    <functioncall functionName="GetCapture"/>
+    <functioncall functionName="GetCrewMembers"/>
+    <functioncall functionName="GetEndurance"/>
+    <functioncall functionName="GetIntelligence"/>
+    <functioncall functionName="GetLocation"/>
+    <functioncall functionName="GetLostEndurance"/>
+    <functioncall functionName="GetMass"/>
+    <functioncall functionName="GetOneDice"/>
+    <functioncall functionName="GetPlanetAtmosphere"/>
+    <functioncall functionName="GetPlanetGravity"/>
+    <functioncall functionName="GetPlanetName"/>
+    <functioncall functionName="GetPlannedMonths"/>
+    <functioncall functionName="GetPort"/>
+    <functioncall functionName="GetProtectionSuit"/>
+    <functioncall functionName="GetRemainingMonths"/>
+    <functioncall functionName="GetRole"/>
+    <functioncall functionName="GetSpeed"/>
+    <functioncall functionName="GetSumTwoDices"/>
+    <functioncall functionName="GetSupplyConsumption"/>
+    <functioncall functionName="HL_FOOT"/>
+    <functioncall functionName="HL_ROVER"/>
+    <functioncall functionName="HL_SHUTTLE"/>
+    <functioncall functionName="HL_STARSHIP"/>
+    <functioncall functionName="HL_UNKNOWN"/>
+    <functioncall functionName="HPS_ENVIROSUIT"/>
+    <functioncall functionName="HPS_ENVIROSUIT_DAMAGED"/>
+    <functioncall functionName="HPS_HEAVYSUIT"/>
+    <functioncall functionName="HPS_HEAVYSUIT_DAMAGED"/>
+    <functioncall functionName="HPS_NONE"/>
+    <functioncall functionName="HPS_UNKNOWN"/>
+    <functioncall functionName="HR_BRAIN_DAMAGED"/>
+    <functioncall functionName="HR_COMMANDER"/>
+    <functioncall functionName="HR_DEAD"/>
+    <functioncall functionName="HR_DOCTOR"/>
+    <functioncall functionName="HR_ENGINEER"/>
+    <functioncall functionName="HR_NAVIGATOR"/>
+    <functioncall functionName="HR_SCIENTIST"/>
+    <functioncall functionName="HR_SCOUT"/>
+    <functioncall functionName="HR_SOLDIER"/>
+    <functioncall functionName="HR_UNKNOWN"/>
+    <functioncall functionName="Human"/>
+    <functioncall functionName="IRandom"/>
+    <functioncall functionName="IsVisited"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="PA_CORROSIVE"/>
+    <functioncall functionName="PA_NONE"/>
+    <functioncall functionName="PA_NORMAL"/>
+    <functioncall functionName="PA_POISONOUS"/>
+    <functioncall functionName="PA_THIN"/>
+    <functioncall functionName="PA_UNKNOWN"/>
+    <functioncall functionName="PC_ARCTIC"/>
+    <functioncall functionName="PC_DESERT"/>
+    <functioncall functionName="PC_TEMPERATE"/>
+    <functioncall functionName="PC_TROPICAL"/>
+    <functioncall functionName="PC_UNKNOWN"/>
+    <functioncall functionName="PF_CLEAR"/>
+    <functioncall functionName="PF_FOG"/>
+    <functioncall functionName="PF_UNKNOWN"/>
+    <functioncall functionName="PG_EARTHLIKE"/>
+    <functioncall functionName="PG_HEAVY"/>
+    <functioncall functionName="PG_LIGHT"/>
+    <functioncall functionName="PG_MINIMAL"/>
+    <functioncall functionName="PG_OPPRESSIVE"/>
+    <functioncall functionName="PG_UNKNOWN"/>
+    <functioncall functionName="PH_000"/>
+    <functioncall functionName="PH_025"/>
+    <functioncall functionName="PH_050"/>
+    <functioncall functionName="PH_075"/>
+    <functioncall functionName="PH_100"/>
+    <functioncall functionName="PH_UNKNOWN"/>
+    <functioncall functionName="PS_ACTIVE"/>
+    <functioncall functionName="PS_CALM"/>
+    <functioncall functionName="PS_UNKNOWN"/>
+    <functioncall functionName="PT_BIOSPHERE"/>
+    <functioncall functionName="PT_CLOSE"/>
+    <functioncall functionName="PT_FAR"/>
+    <functioncall functionName="PT_GIANT"/>
+    <functioncall functionName="PT_LARGE"/>
+    <functioncall functionName="PT_REMOTE"/>
+    <functioncall functionName="PT_SMALL"/>
+    <functioncall functionName="PT_TINY"/>
+    <functioncall functionName="Planet"/>
+    <functioncall functionName="StarEventParagraph"/>
+    <functioncall functionName="SupplyConsumer"/>
+    <functioncall functionName="VL_LONG"/>
+    <functioncall functionName="VL_MEDIUM"/>
+    <functioncall functionName="VL_SHORT"/>
+    <functioncall functionName="Voyage"/>
+    <functioncall functionName="_distance_moves_startfield"/>
+    <functioncall functionName="_endurance"/>
+    <functioncall functionName="_endurance_points"/>
+    <functioncall functionName="_human_location"/>
+    <functioncall functionName="_humans"/>
+    <functioncall functionName="_intelligence"/>
+    <functioncall functionName="_interaction_extra_points"/>
+    <functioncall functionName="_invariant"/>
+    <functioncall functionName="_is_discovered"/>
+    <functioncall functionName="_orbiting_planet"/>
+    <functioncall functionName="_planet_atmosphere"/>
+    <functioncall functionName="_planet_climate"/>
+    <functioncall functionName="_planet_distance"/>
+    <functioncall functionName="_planet_fog"/>
+    <functioncall functionName="_planet_gravity"/>
+    <functioncall functionName="_planet_hydrography"/>
+    <functioncall functionName="_planet_name"/>
+    <functioncall functionName="_planet_seismology"/>
+    <functioncall functionName="_planet_size"/>
+    <functioncall functionName="_planned_months"/>
+    <functioncall functionName="_port"/>
+    <functioncall functionName="_protection_suit"/>
+    <functioncall functionName="_role"/>
+    <functioncall functionName="_supply_check_period"/>
+    <functioncall functionName="_supply_consumption"/>
+    <functioncall functionName="_visited"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="count_if"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="distance_moves_startfield"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="evt_index"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find_if"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="for_each"/>
+    <functioncall functionName="human_role"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="live_port"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="lost_endurance_crew_penalty"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="months"/>
+    <functioncall functionName="orbiting_planet"/>
+    <functioncall functionName="planet_atmosphere"/>
+    <functioncall functionName="planet_distance"/>
+    <functioncall functionName="planet_gravity"/>
+    <functioncall functionName="planet_name"/>
+    <functioncall functionName="planet_size"/>
+    <functioncall functionName="rand"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="suit_mass"/>
+    <functioncall functionName="suit_speed_modifier"/>
+    <functioncall functionName="supply_consumption"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="tl"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="voyage_length"/>
+  </FileInfo>
+</analyzerinfo>
